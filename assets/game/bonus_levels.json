@@ -1,0 +1,28 @@
+{
+  "bonuslevelsData": {
+	"info": "Bonus Data",
+	"levels": [
+		{
+			"id": 1,
+			"name": "Bonus Level 1",
+			"timeLimit": 100,
+			"rockHitScoreLoss": 0,
+			"rockHitTimeLoss": 0,
+			"rockReleaseTimer": 0,
+			"starNumbers": 30,
+			"rockNumbers": 0,
+			"starScore": 30,
+			"starScoreExtraTime": 0,
+			"playerAttr": {"x": 100, "y": 200},
+			"platforms": {
+				"px1": 0,
+				"py1": 500,
+				"px2": 400,
+				"py2": 500,
+				"px3": 600,
+				"py3": 500
+			}
+		}
+	]
+  }
+}

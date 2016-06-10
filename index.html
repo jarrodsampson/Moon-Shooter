@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head> 
+    <meta charset="UTF-8" />
+    <title>Moon Shooter | Planlodge Games</title>
+    <link href='http://fonts.googleapis.com/css?family=Sniglet' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" type="image/png" href="assets/game/star.png">
+    <style type="text/css">
+        body {
+            margin: 0;
+            background:#000;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="assets/js/phaser.min.js"></script>
+    <script src="assets/js/webfont.js"></script>
+    <script src="assets/js/boot.js"></script>
+    <script src="assets/js/preload.js"></script>
+    <script src="assets/js/gametitle.js"></script>
+    <script src="assets/js/gameplay.js"></script>
+    <script src="assets/js/gameover.js"></script>
+    <script src="assets/js/credits.js"></script>
+    <script src="assets/js/help.js"></script>
+    <script>
+    (function() {
+
+
+    	var wfconfig = {
+ 
+		    active: function() { 
+		        console.log("font loaded");
+		        init();
+		    },
+		 
+		    google: {
+		        families: ['Sniglet', 'Indie Flower']
+		    }
+		 
+		};
+		 
+		WebFont.load(wfconfig);
+
+		})();
+
+		var init = function () {
+
+			var game = new Phaser.Game(800, 600, Phaser.CANVAS, "game");
+				game.state.add("Boot",boot);
+				game.state.add("Preload",preload);
+				game.state.add("GameTitle",gameTitle);
+				game.state.add("TheGame",theGame);
+				game.state.add("GameOver",gameOver);
+				game.state.add("TheCredits",theCredits);
+				game.state.add("Help",help);
+				game.state.start("Boot");
+		};    
+	</script>
+</body>
+</html>

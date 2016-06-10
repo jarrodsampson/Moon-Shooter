@@ -1,0 +1,118 @@
+{
+  "levelsData": {
+	"info": "Starry Data",
+	"playerLives": 3,
+	"levels": [
+		{
+			"id": 1,
+			"name": "Level 1",
+			"timeLimit": 20,
+			"rockHitScoreLoss": 20,
+			"rockHitTimeLoss": 2,
+			"rockReleaseTimer": 5000,
+			"starNumbers": 7,
+			"rockNumbers": 3,
+			"starScore": 10,
+			"starField": "starfield",
+			"starScoreExtraTime": 2,
+			"playerAttr": {"x": 100, "y": 200},
+			"platforms": {
+				"px1": 0,
+				"py1": 400,
+				"px2": 650,
+				"py2": 500,
+				"px3": 400,
+				"py3": 700
+			}
+		},
+		{
+			"id": 2,
+			"name": "Level 2",
+			"timeLimit": 15,
+			"rockHitScoreLoss": 25,
+			"rockHitTimeLoss": 2,
+			"rockReleaseTimer": 5000,
+			"starNumbers": 9,
+			"rockNumbers": 6,
+			"starScore": 15,
+			"starField": "starfield2",
+			"starScoreExtraTime": 2,
+			"playerAttr": {"x": 0, "y": 0},
+			"platforms": {
+				"px1": 500,
+				"py1": 150,
+				"px2": -200,
+				"py2": 300,
+				"px3": 400,
+				"py3": 450
+			}
+		},
+		{
+			"id": 3,
+			"name": "Level 3",
+			"timeLimit": 10,
+			"rockHitScoreLoss": 30,
+			"rockHitTimeLoss": 2,
+			"rockReleaseTimer": 4000,
+			"starNumbers": 17,
+			"rockNumbers": 9,
+			"starScore": 20,
+			"starField": "starfield3",
+			"starScoreExtraTime": 2,
+			"playerAttr": {"x": 100, "y": 300},
+			"platforms": {
+				"px1": 0,
+				"py1": 500,
+				"px2": 400,
+				"py2": 500,
+				"px3": 600,
+				"py3": 500
+			}
+		},
+		{
+			"id": 4,
+			"name": "Level 4",
+			"timeLimit": 10,
+			"rockHitScoreLoss": 35,
+			"rockHitTimeLoss": 2,
+			"rockReleaseTimer": 3000,
+			"starNumbers": 22,
+			"rockNumbers": 12,
+			"starScore": 25,
+			"starField": "starfield4",
+			"starScoreExtraTime": 3,
+			"playerAttr": {"x": 400, "y": 200},
+			"platforms": {
+				"px1": 500,
+				"py1": 150,
+				"px2": -200,
+				"py2": 300,
+				"px3": 400,
+				"py3": 450
+			}
+		},
+		{
+			"id": 5,
+			"name": "Level 5",
+			"timeLimit": 10,
+			"rockHitScoreLoss": 39,
+			"rockHitTimeLoss": 3,
+			"rockReleaseTimer": 2500,
+			"starNumbers": 25,
+			"rockNumbers": 15,
+			"starScore": 30,
+			"starField": "starfield2",
+			"starScoreExtraTime": 3,
+			"playerAttr": {"x": 200, "y": 200},
+			"platforms": {
+				"px1": 0,
+				"py1": 500,
+				"px2": 400,
+				"py2": 500,
+				"px3": 600,
+				"py3": 500
+			}
+		}
+	]
+  }
+}
